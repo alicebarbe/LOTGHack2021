@@ -25,4 +25,8 @@ class MainActivity : AppCompatActivity() {
         startActivity(intent)
     }
 
+    fun nearestAEView(view: View) {
+        val intent = Intent(this, nearestAE::class.java)
+        startActivity(intent)
+    }
 }
