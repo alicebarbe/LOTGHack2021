@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LOTGHack2021</string>
+    <string name="symptom1">Nausea</string>
+    <string name="symptom2">Dizzy</string>
+    <string name="symptom3">Vomiting</string>
+    <string name="symptom4">Headache</string>
+</resources>
