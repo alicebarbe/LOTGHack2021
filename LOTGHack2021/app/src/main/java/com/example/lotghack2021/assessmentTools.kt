@@ -1,10 +1,11 @@
 package com.example.lotghack2021
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.CheckBox
+import androidx.appcompat.app.AppCompatActivity
+
 var PHYSICAL_SYMPTOMS = false
 class assessmentTools : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -14,32 +15,19 @@ class assessmentTools : AppCompatActivity() {
     fun onCheckboxClicked(view: View) {
         if (view is CheckBox) {
             val checked: Boolean = view.isChecked
-
-            when (view.id) {
-                R.id.checkBox1 -> {
-                    PHYSICAL_SYMPTOMS = PHYSICAL_SYMPTOMS.or(checked)
-                }
-                R.id.checkBox2 -> {
-                    PHYSICAL_SYMPTOMS = PHYSICAL_SYMPTOMS.or(checked)
-                }
-                R.id.checkBox3 -> {
-                    PHYSICAL_SYMPTOMS = PHYSICAL_SYMPTOMS.or(checked)
-                }
-                R.id.checkBox4 -> {
-                    PHYSICAL_SYMPTOMS = PHYSICAL_SYMPTOMS.or(checked)
-                }
-            }
+            println("checked is: " + checked.toString())
+            PHYSICAL_SYMPTOMS = checked
         }
     }
     fun onNextClicked(view: View) {
         if (PHYSICAL_SYMPTOMS) {
+            // seek immediate medical attention, get off the field
             val intent2 = Intent(this, getOffField::class.java)
-            println("get off field")
             PHYSICAL_SYMPTOMS = false
             startActivity(intent2)
         } else  {
-            val intent2 = Intent(this, noIssues::class.java)
-            println("no issues")
+            // no symptoms
+            val intent2 = Intent(this, assessmentTools2::class.java)
             PHYSICAL_SYMPTOMS = false
             startActivity(intent2)
         }

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.lotghack2021">
-
     <!--
          The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
          Google Maps Android API v2, but you must specify either coarse or fine
@@ -16,7 +15,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.LOTGHack2021">
-
+        <activity
+            android:name=".assessmentTools2"
+            android:parentActivityName=".assessmentTools" />
+        <activity
+            android:name=".furtherInfo"
+            android:parentActivityName=".MainActivity" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
@@ -34,9 +38,6 @@
             android:label="@string/title_activity_nearest_a_e"
             android:parentActivityName=".MainActivity" />
         <activity
-            android:name=".noIssues"
-            android:parentActivityName=".pregamePrimer" />
-        <activity
             android:name=".getOffField"
             android:parentActivityName=".pregamePrimer" />
         <activity
@@ -44,13 +45,7 @@
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".pregamePrimer"
-            android:parentActivityName=".MainActivity">
-
-            <!-- The meta-data tag is required if you support API level 15 and lower -->
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
-        </activity>
+            android:parentActivityName=".MainActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

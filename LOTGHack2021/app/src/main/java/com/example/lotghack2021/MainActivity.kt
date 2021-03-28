@@ -25,6 +25,11 @@ class MainActivity : AppCompatActivity() {
         startActivity(intent)
     }
 
+    fun furtherInfoView(view: View) {
+        val intent = Intent(this, furtherInfo::class.java)
+        startActivity(intent)
+    }
+
     fun nearestAEView(view: View) {
         val intent = Intent(this, nearestAE::class.java)
         startActivity(intent)

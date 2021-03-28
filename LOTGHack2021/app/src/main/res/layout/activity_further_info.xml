@@ -4,15 +4,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".noIssues">
+    tools:context=".furtherInfo">
 
     <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="The player is probably fine. Stay safe!"
+        android:id="@+id/textView"
+        android:layout_width="364dp"
+        android:layout_height="651dp"
+        android:isScrollContainer="true"
+        android:lineSpacingExtra="4sp"
+        android:scrollbarStyle="outsideInset"
+        android:scrollbars="vertical"
+        android:text="@string/furtherInfo"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#A3000000"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

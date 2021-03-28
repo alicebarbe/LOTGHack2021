@@ -1,8 +1,66 @@
 <resources>
-    <string name="app_name">LOTGHack2021</string>
-    <string name="symptom1">Nausea</string>
-    <string name="symptom2">Dizzy</string>
-    <string name="symptom3">Vomiting</string>
-    <string name="symptom4">Headache</string>
+    <string name="app_name">ConcussionCheck</string>
+    <string name="symptom1">Loss of consciousness or responsiveness</string>
+    <string name="symptom2">Change in vision or hearing</string>
+    <string name="symptom3">Increasing confusion or irritability</string>
+    <string name="symptom4">Nausea or vomiting</string>
+    <string name="symptom5">Seizure or convulsion</string>
+    <string name="symptom6">Weakness, tingling, or burning in arms or legs</string>
+    <string name="symptom7">Headache</string>
+    <string name="symptom8">Dizziness or balance problems</string>
+    <string name="symptom9">Confusion</string>
+    <string name="symptom10">Nausea</string>
+    <string name="symptom11">Blank or vacant look</string>
+    <string name="symptom12">Neck Pain</string>
+    <string name="symptom13">“Don’t feel right”</string>
     <string name="title_activity_nearest_a_e">Map</string>
+    <string name="maddockQuestions">
+        The player is not showing immediate symptoms of concussion. However, if in doubt, or if symptoms
+        arise later, please remove the player from the field and seek medical attention.\n\n
+        The following questions can be used as an additional screening tool for adults and children over 13:\n
+        &#8226; At what venue are we today?\n
+        &#8226; Which half is it now?\n
+        &#8226; Who scored last in this match?\n
+        &#8226; What did you play last week?\n
+        &#8226; Did your team win the last game?\n
+    </string>
+    <string name="pregamePrimer">
+        Concussion is a traumatic brain injury typically resulting from a blow to the head or body
+        resulting in forces being transmitted to the brain. The term concussion is vague, each
+        concussion is different and can feature very different symptoms. The symptoms can present
+        immediately and be short-lived or the onset of symptoms may be delayed and start to occur
+        sometime after the initial injury. \n\n
+        Some symptoms that require immediate medical attention include: \n
+        &#8226; Deteriorating conscious state \n
+        &#8226; Severe or increasing headache \n
+        &#8226; Unusual behaviour change \n
+        &#8226; Increasing confusion or irritability \n
+        &#8226; Repeated vomitingWhen responding to a concussion \n\n
+        Do: \n
+        &#8226; Remove the player immediately. \n
+        &#8226; Get an assessment by a health care professional within 24 hours of the incident to ensure
+        that there are no significant underlying medical issues. \n
+        &#8226; Rest and sleep. \n\n
+        Do not: \n
+        &#8226; Be left alone in the first 24 hours. \n
+        &#8226; Consume alcohol in the 24 hours and/or until symptom free. \n
+        &#8226; Drive a motor vehicle in the first hours and/or until symptom free. \n\n
+        Players suspected of having concussion or diagnosed with concussion should go through a
+        Graduated Return to Play programme &#40;GRTP&#41;.</string>
+    <string name="furtherInfo">
+        Concussion is the most commonly diagnosed injury in the community game in England, making
+        17% of all injuries. There was one diagnosed concussion for a team every 11.4 games in
+        England, although the incidence rates may be higher than this.72% of concussions occurs in
+        the tackle.40% of all concussions are to the ball carrier in the tackle and 32% to the
+        tackler.\n\nConcussion can occur from head contact with the body in a tackle or head contact
+        with the ground. Concussions can occur with no direct head contact.Female Players tend to
+        report more severe and prolonged symptoms. Children tend to recover more slowly from
+        concussive injury.\n\nConcussion must be taken extremely seriously to safeguard the safety
+        and long-term health of players. The majority (80-90%) of concussion symptoms resolve in
+        around 7-10 days, with symptoms resolving within 1-2 days in around a third of cases,
+        although full recovery will normally take longer than this. Loss of consciousness occurs
+        in only 10-15% of concussions.\n\nHeadguards, gumshields and other protective equipment do not
+        protect against concussions. Concussion can occur in a game or at training. The onset of
+        the effects of concussion maybe delayed for up to 24–48 hours.
+    </string>
 </resources>
