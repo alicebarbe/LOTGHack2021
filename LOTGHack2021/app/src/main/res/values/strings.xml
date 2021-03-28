@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">ConcussionCheck</string>
+    <string name="latitude">52.2084083</string>
+    <string name="longitude">0.0856367</string>
     <string name="symptom1">Loss of consciousness or responsiveness</string>
     <string name="symptom2">Change in vision or hearing</string>
     <string name="symptom3">Increasing confusion or irritability</string>

@@ -12,8 +12,6 @@ import com.google.android.gms.location.FusedLocationProviderClient
 import com.google.android.gms.location.LocationServices
 
 
-const val EXTRA_MESSAGE = "com.example.lotghack2021.MESSAGE"
-
 class MainActivity : AppCompatActivity() {
     private lateinit var fusedLocationClient: FusedLocationProviderClient
     private var latitude: Double = 52.2084083 // set defaults
@@ -45,8 +43,8 @@ class MainActivity : AppCompatActivity() {
                 if (location != null) {
                     // use your location object
                     // get latitude , longitude and other info from this
-                    latitude =  location?.latitude
-                    longitude = location?.longitude
+                    latitude =  location.latitude
+                    longitude = location.longitude
                 }
 
             }
@@ -69,10 +67,6 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun nearestAEView(view: View) {
-
-        //val intent = Intent(this, nearestAE::class.java)
-        //startActivity(intent)
-
         val intent = Intent(
             Intent.ACTION_VIEW,
             Uri.parse("https://www.google.com/maps/search/hospital/@$latitude,$longitude,12")
