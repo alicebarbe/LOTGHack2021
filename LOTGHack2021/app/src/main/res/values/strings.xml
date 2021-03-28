@@ -27,28 +27,16 @@
         &#8226; Did your team win the last game?\n
     </string>
     <string name="pregamePrimer">
-        Concussion is a traumatic brain injury typically resulting from a blow to the head or body
-        resulting in forces being transmitted to the brain. The term concussion is vague, each
-        concussion is different and can feature very different symptoms. The symptoms can present
-        immediately and be short-lived or the onset of symptoms may be delayed and start to occur
-        sometime after the initial injury. \n\n
-        Some symptoms that require immediate medical attention include: \n
-        &#8226; Deteriorating conscious state \n
-        &#8226; Severe or increasing headache \n
-        &#8226; Unusual behaviour change \n
-        &#8226; Increasing confusion or irritability \n
-        &#8226; Repeated vomitingWhen responding to a concussion \n\n
-        Do: \n
-        &#8226; Remove the player immediately. \n
-        &#8226; Get an assessment by a health care professional within 24 hours of the incident to ensure
-        that there are no significant underlying medical issues. \n
-        &#8226; Rest and sleep. \n\n
-        Do not: \n
-        &#8226; Be left alone in the first 24 hours. \n
-        &#8226; Consume alcohol in the 24 hours and/or until symptom free. \n
-        &#8226; Drive a motor vehicle in the first hours and/or until symptom free. \n\n
-        Players suspected of having concussion or diagnosed with concussion should go through a
-        Graduated Return to Play programme &#40;GRTP&#41;.</string>
+        What should I be watching out for?\n\n
+        &#8226; Direct blow to the head or body\n
+        &#8226; Whiplash type movements of the head and neck\n
+        &#8226; Player is tackled or collides with another player\n
+        &#8226; Player hits the ground\n\n
+        Skill tips for avoiding concussion injury\n\n
+        &#8226; Lower the height of tacklers and the associated body position of tacklers\n
+        &#8226; Change the technique or technical execution of higher,
+        upright tackles so that head contact is avoided or reduced
+    </string>
     <string name="furtherInfo">
         Concussion is the most commonly diagnosed injury in the community game in England, making
         17% of all injuries. There was one diagnosed concussion for a team every 11.4 games in
